@@ -1,6 +1,6 @@
 ## GPIO with Adafruit-BBIO
 
-First you need to install Adafruit
+First you need to install [Adafruit](https://pypi.org/project/Adafruit-BBIO/)
 ```bash
 apt-get update
 sudo apt-get install python-pip python-setuptools python-smbus 
