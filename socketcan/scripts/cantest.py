@@ -36,6 +36,6 @@ if __name__ == '__main__':
     t.start()
     
     while True:
-        print('main loop run every 1 second now'
+        print('main loop run every 1 second now')
         time.sleep(1)
     
