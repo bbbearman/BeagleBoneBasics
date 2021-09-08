@@ -26,3 +26,7 @@ if __name__ == '__main__':
     print('sending can message now')
     t = RepeatingTimer(1 , can0send,(0x300,))
     t.start()
+    
+    while True:
+        time.sleep(1)
+    
