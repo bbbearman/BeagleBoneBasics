@@ -28,7 +28,7 @@ sudo iptables -t nat -A POSTROUTING -o wlp4s0 -j MASQUERADE
 ```
 ********
 **In BeagleBone Host** you need to:
-
+this can do automatically [How To Connect PocketBeagle To The Internet Via USB](https://www.ofitselfso.com/BeagleNotes/HowToConnectPocketBeagleToTheInternetViaUSB.php)
 ```bash
 sudo nano /etc/resolv.conf
 
