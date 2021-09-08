@@ -23,3 +23,8 @@ sudo iptables -P FORWARD ACCEPT
 sudo iptables -t nat -A POSTROUTING -o wlp4s0 -j MASQUERADE
 ```
 
+
+
+
+
+
