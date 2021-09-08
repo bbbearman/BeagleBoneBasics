@@ -4,12 +4,20 @@ import can
 import os
 from threading import Timer
 
+#------Global Variables------#
+counter=0
+
+
 #-------pack and send can frams------#
 def can0send(MsgID):
-
+    
+    global counter
+   
     bus = can.interface.Bus(channel='can0', bustype='socketcan')
-    msg = can.Message(arbitration_id=MsgID, data=[1, 2, 3, 1, 3, 1, 4, 1], is_extended_id=False)
+    msg = can.Message(arbitration_id=MsgID, data=[counter, 2, 3, 1, 3, 1, 4, 1], is_extended_id=False)
     bus.send(msg)
+    
+    counter=counter+1
 
 class RepeatingTimer(Timer):
     def run(self):
@@ -28,5 +36,6 @@ if __name__ == '__main__':
     t.start()
     
     while True:
+        print('main loop run every 1 second now'
         time.sleep(1)
     
