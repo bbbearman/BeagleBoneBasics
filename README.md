@@ -36,5 +36,12 @@ nameserver 8.8.8.8
 nameserver 8.8.4.4
 ```
 
+### 2.login as root
+`sudo su` and back to debian with `login debian`
+
+### 3.cloud9 IDE
+you can login into BeagleBone with http://192.168.7.2/ide.html
+
+repository:`debian@beaglebone:/var/lib/cloud9$ `
 
 
