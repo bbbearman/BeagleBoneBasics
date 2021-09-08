@@ -15,11 +15,11 @@ use `ip route show` to see details
 ####2.2 set route from internet to bealgebong within linux
 
 **In Ubuntu Host** you need to:
-‘‘‘bash
+```bash
 sudo bash -c 'echo 1 > /proc/sys/net/ipv4/ip_forward'
 sudo iptables -F
 sudo iptables -P INPUT ACCEPT
 sudo iptables -P FORWARD ACCEPT
 sudo iptables -t nat -A POSTROUTING -o wlp4s0 -j MASQUERADE
-'''
+```
 
