@@ -37,6 +37,7 @@ search localdomain
 nameserver 8.8.8.8
 nameserver 8.8.4.4
 ```
+*********
 
 ### 2.login as root
 `sudo su` and back to debian with `login debian`
