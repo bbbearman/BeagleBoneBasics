@@ -1,4 +1,4 @@
-###    How to use socketcan with the command line in linux
+###    **How to use socketcan with the command line in linux**
 
 1. first you need to make the `caninit_loopbackon` file excutable:
   `chmod u+x caninit_loopbackon`
