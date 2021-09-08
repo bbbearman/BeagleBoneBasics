@@ -1,5 +1,7 @@
 ## Exploring in BeagleBone
 
+[Getting Start with BeagleBone](https://cebbs.iceasy.com/forum.php?mod=viewthread&tid=9659)
+
 **user:debian**
 
 ### 1.login into beaglebone
