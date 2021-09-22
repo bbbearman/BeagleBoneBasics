@@ -18,6 +18,7 @@ def can0send(MsgID):
     bus.send(msg)
     
     counter=counter+1
+    counter=counter%256
 
 class RepeatingTimer(Timer):
     def run(self):
